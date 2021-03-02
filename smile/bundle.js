@@ -13,7 +13,7 @@
   const BackgroundCircle = ({ radius, strokeWidth }) =>
     React$1.createElement("circle", {
       r: radius,
-      fill: "red",
+      fill: "blue",
       stroke: "black",
       "stroke-width": strokeWidth,
     });
@@ -96,7 +96,7 @@
   const width = 160;
   const height = 160;
 
-  const array = d3.range(6 * 4);
+  const array = d3.range(6 * 3);
 
   const App = () =>
     array.map(() =>
